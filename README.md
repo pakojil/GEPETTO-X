@@ -45,3 +45,13 @@ El nombre hace referencia a *Gepetto*, el artesano de *Pinocho*, que transforma 
 git clone https://github.com/tu-usuario/GEPETTO-X.git
 cd GEPETTO-X
 pip install -r requirements.txt
+
+---
+
+## 🔹 Uso básico
+python gepettox_pipeline.py --input path/to/article.xml --output path/to/output.pdf
+
+
+--input: archivo XML-JATS de origen
+
+--output: PDF generado listo para publicación
